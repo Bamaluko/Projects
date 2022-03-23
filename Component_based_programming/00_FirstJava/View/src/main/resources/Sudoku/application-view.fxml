@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="window" maxHeight="226.0" maxWidth="226.0" minHeight="226.0" minWidth="655.0" prefHeight="226.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sudoku.ApplicationController">
+    <children>
+        <Label fx:id="chooseDifficulty" layoutX="274.0" layoutY="28.0" text="Choose difficulty">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="comboBoxSystemDifficult" layoutX="251.0" layoutY="65.0" prefWidth="150.0" promptText="Choice">
+        </ComboBox>
+        <Button fx:id="buttonConfirmLevel" layoutX="276.0" layoutY="136.0" mnemonicParsing="false" onAction="#onActionButtonConfirm" text="Confirm">
+            <font>
+                <Font size="14.0" />
+            </font>
+         <effect>
+            <Glow />
+         </effect>
+        </Button>
+        <Button fx:id="buttonStartGame" layoutX="423.0" layoutY="50.0" mnemonicParsing="false" onAction="#onActionButtonStartGame" prefHeight="117.0" prefWidth="212.0" text="Start Game">
+            <font>
+                <Font size="20.0" />
+            </font>
+         <effect>
+            <Glow />
+         </effect>
+        </Button>
+      <Button fx:id="english" layoutX="81.0" layoutY="139.0" mnemonicParsing="false" onAction="#setEnglishLanguage" text="Angielski">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Label fx:id="chooseLanguage" layoutX="63.0" layoutY="28.0" text="Choose language">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="polish" layoutX="91.0" layoutY="78.0" mnemonicParsing="false" onAction="#setPolishLanguage" text="Polski">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Label fx:id="students" layoutX="296.0" layoutY="195.0" text="Students" />
+    </children>
+</Pane>
