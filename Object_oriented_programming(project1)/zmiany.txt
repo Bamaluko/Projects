@@ -1,0 +1,9 @@
+Wojtek:
+1. private percentage i getter przerzucone do klasy Service bo były w obu klasach Loan i Deposit.
+2. Dodany konstruktor do Service
+3. Zdecydować czy endService ma być prywatna czy publiczna
+5. w klase Address houseNumber w konstruktorze jest typu int a pole jest typu string.
+6. Propounję zmienić nazwy klas Loan na ShortTermLoan zamiast ShortTerm.
+7. setBalance() może zmienić na private?
+8. Wyjątek do shortTerm gdy za długi kredyt
+9. ShortTerm do 5 lat.
