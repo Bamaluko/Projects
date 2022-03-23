@@ -1,0 +1,334 @@
+<html xml:lang="pl" lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<center>
+<h1>ZADANIE_6</h1>
+</center>
+</head>
+<body>
+<h1>ZADANIE_6_1</h1>
+<h3>
+					Nazwisko biezacego elementu
+					Różyc</h3>
+<h3>
+					Element bieżący student wraz z podelementami
+					
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+</h3>
+<h3>
+					Element o nazwie grupaPracownikow
+					
+
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+</h3>
+<h3>
+					Punkty studenta o imieniu Stefania
+					 100</h3>
+<h3>
+					NrAlbumu i wiek bieżącego elementu student
+					 765432 24 </h3>
+<h3>
+					Wiek studenta o imieniu Aleksandra
+					 22 </h3>
+<h3>
+					Numery wszystkich pracowników
+					 87987 65665 56734</h3>
+<h3>
+					Płeć studentów Aleksandra i Teofil oraz wszystkich pracowników
+					kmmmk</h3>
+<h1>ZADANIE_6_2</h1>
+<h3>
+					Elementy student o wieku powyżej 21 lat
+					
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+</h3>
+<h3>
+					Wszystkie elementy student, które mają atrybut "plec" o wartości "k"
+					
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+</h3>
+<h3>
+					Wszystkich pracowników mężczyzn
+					
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+</h3>
+<h3>
+					Wszystkich pracowników, których numer pracownika jest większy od 40000
+					
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+</h3>
+<h1>ZADANIE_6_3</h1>
+<h3>
+					Drugie wystąpienie elementu student
+					
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+</h3>
+<h3>
+					Trzecie i kolejne wystąpienie student
+					
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+Andrzej
+Kmicic
+ 20 
+ 10
+</h3>
+<h3>
+					Wszystkich poza drugim wystąpieniem elementu student
+					
+Jan
+Bohatyrowicz
+123459
+ 21 
+ 40 
+
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+Andrzej
+Kmicic
+ 20 
+ 10
+</h3>
+<h3>
+					Wszystkie elementy, które są drugim dzieckiem swojego ojca
+					Bohatyrowicz
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+RudeckaRóżyc445566Kmicic
+
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+ Wołodyjowski
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+ Radziwił Wołodyjowska</h3>
+<h3>
+					Podostatniego pracownika i studenta
+					
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+</h3>
+<h3>
+					Od drugiego włącznie pracownika
+					
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+</h3>
+<h1>ZADANIE_6_4</h1>
+<h3>
+					Wszystkie wartości wiek korzystając z funkcji text()
+					 21  23  24  22  20 </h3>
+<h3>
+					Sumę wartości wiek wszystkich pracowników
+					110</h3>
+<h3>
+					Średnią wieku mężczyzn
+					21.666666666666668</h3>
+<h3>
+					Łańcuch znaków imie oraz nazwisko rozdzielone spacją, np. Teofil Różyc
+					Teofil Różyc</h3>
+<h3>
+					Najmłodszego i najstarszego studenta i pracownika
+                    
+							Najmlodszy student:
+							
+Andrzej
+Kmicic
+ 20 
+ 10
+
+							Najstarszy student:
+							
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+							Najmlodszy pracownik:
+							
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+							Najstarszy pracownik:
+							
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+</h3>
+<h3>
+					Liczbę kobiet i mężczyzn (zarówno studentów, jak i pracowników)
+					Liczba kobiet:
+					3
+					Liczba mezczyzn:
+					5</h3>
+<h3>
+					Liczbę kobiet i mężczyzn dla poszczególnych grup (studentów i osobno dla pracowników)
+					Liczba kobiet (studenci):
+					2
+					Liczba mezczyzn (studenci):
+					3
+					Liczba kobiet (pracownicy):
+					1
+					Liczba mezczyzn (pracownicy):
+					2</h3>
+<h3>
+					Największą i najmniejszą liczbę zdobytych punktów przez studentów
+                    
+							Min:
+							
+Andrzej
+Kmicic
+ 20 
+ 10
+
+							Max:
+							
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+</h3>
+<h3>
+					Średnią liczbę zdobytych punktów przez studentów
+					59</h3>
+<h3>
+					Liczbę studentów, którzy zdali, czyli zyskali powyżej 50 punktów
+					3</h3>
+</body>
+</html>

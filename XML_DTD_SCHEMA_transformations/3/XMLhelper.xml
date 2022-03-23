@@ -1,0 +1,164 @@
+﻿<Transformacja>
+	<Report>
+		<Autor>Kacper Kuchciak</Autor>
+		<IloscSal>2</IloscSal>
+		<IloscDzialow>4</IloscDzialow>
+		<IloscPlyt>24</IloscPlyt>
+		<IloscPlytRock>10</IloscPlytRock>
+		<UdzialRockaWCalosci>0.416666666666666667</UdzialRockaWCalosci>
+		<IloscPlytJazz>4</IloscPlytJazz>
+		<UdzialJazzuWCalosci>0.166666666666666667</UdzialJazzuWCalosci>
+		<IloscPlytPop>6</IloscPlytPop>
+		<UdzialPopuWCalosci>0.25</UdzialPopuWCalosci>
+		<IloscPlytMetal>4</IloscPlytMetal>
+		<UdzialMetaluWCalosci>0.166666666666666667</UdzialMetaluWCalosci>
+		<DataWygenerowaniaRaportu>2022-01-16T09:28:34.266Z</DataWygenerowaniaRaportu>
+	</Report>
+	<Plyty>
+		<Plyta ID="QQQ">
+			<Tytul>Dark Side Of The Moon</Tytul>
+			<Wykonawca>Pink Floyd</Wykonawca>
+			<RokWydania>1973</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="QQW">
+			<Tytul>Appetite For Destruction</Tytul>
+			<Wykonawca>Guns N' Roses</Wykonawca>
+			<RokWydania>1987</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="QQE">
+			<Tytul>Back In Black</Tytul>
+			<Wykonawca>AC/DC</Wykonawca>
+			<RokWydania>1980</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="QWQ">
+			<Tytul>Master Of Puppets</Tytul>
+			<Wykonawca>Metalica</Wykonawca>
+			<RokWydania>1986</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="ABA">
+			<Tytul>IV</Tytul>
+			<Wykonawca>Led Zeppelin</Wykonawca>
+			<RokWydania>1971</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="ABK">
+			<Tytul>A Night At The Opera </Tytul>
+			<Wykonawca>Queen</Wykonawca>
+			<RokWydania>1975</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="ABW">
+			<Tytul>Sgt. Pepper's Lonely Hearts Club Band</Tytul>
+			<Wykonawca>The Beatles</Wykonawca>
+			<RokWydania>1967</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="DTS">
+			<Tytul>Powerage</Tytul>
+			<Wykonawca>AC/DC</Wykonawca>
+			<RokWydania>1978</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="DTK">
+			<Tytul>The Number Of The Beast</Tytul>
+			<Wykonawca>Iron Maiden</Wykonawca>
+			<RokWydania>1982</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="DTN">
+			<Tytul>Abbey Road</Tytul>
+			<Wykonawca>The Beatles</Wykonawca>
+			<RokWydania>1969</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="QWR">
+			<Tytul>Kind Of Blue</Tytul>
+			<Wykonawca>Miles Davis</Wykonawca>
+			<RokWydania>1959</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="WWW">
+			<Tytul>A Love Supreme</Tytul>
+			<Wykonawca>John Coltrane</Wykonawca>
+			<RokWydania>1964</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="WWF">
+			<Tytul>Time Out </Tytul>
+			<Wykonawca>Dave Brubeck Quartet</Wykonawca>
+			<RokWydania>1959</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="WWN">
+			<Tytul>Mingus Ah Um </Tytul>
+			<Wykonawca>Charles Mingus</Wykonawca>
+			<RokWydania>1959</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="TWE">
+			<Tytul>Songs In The Key Of Life</Tytul>
+			<Wykonawca>Stevie Wonder</Wykonawca>
+			<RokWydania>1976</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="FSD">
+			<Tytul>Off The Wall</Tytul>
+			<Wykonawca>Michael Jackson</Wykonawca>
+			<RokWydania>1979</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="FSZ">
+			<Tytul>Like A Virgin</Tytul>
+			<Wykonawca>Madonna</Wykonawca>
+			<RokWydania>1984</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="FSK">
+			<Tytul>The Beat Of My Heart</Tytul>
+			<Wykonawca>Tony Bennett</Wykonawca>
+			<RokWydania>1957</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="FSN">
+			<Tytul>Come Fly With Me</Tytul>
+			<Wykonawca>Frank Sinatra</Wykonawca>
+			<RokWydania>1958</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="FSW">
+			<Tytul>Born This Way</Tytul>
+			<Wykonawca>Lady Gaga</Wykonawca>
+			<RokWydania>2011</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="UWR">
+			<Tytul>Fallen</Tytul>
+			<Wykonawca>Evanescence</Wykonawca>
+			<RokWydania>2003</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="UWS">
+			<Tytul>No Remorse</Tytul>
+			<Wykonawca>Motörhead</Wykonawca>
+			<RokWydania>1984</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="UWZ">
+			<Tytul>Paranoid</Tytul>
+			<Wykonawca>Black Sabbath</Wykonawca>
+			<RokWydania>1970</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+		<Plyta ID="UWY">
+			<Tytul>Angel Dust</Tytul>
+			<Wykonawca>Faith No More</Wykonawca>
+			<RokWydania>1992</RokWydania>
+			<Dlugosc>2H</Dlugosc>
+		</Plyta>
+	</Plyty>
+</Transformacja>
+

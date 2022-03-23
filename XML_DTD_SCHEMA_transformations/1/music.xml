@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PLYTOTEKA_CD>
+
+	<NAGLOWEK>
+		<NAZWA_PROJEKTU>Biblioteka płyt muzycznych</NAZWA_PROJEKTU>
+		<AUTOR Imie_i_nazwisko ="Kacper Kuchciak"></AUTOR>
+	</NAGLOWEK>
+	<PRZYBORNIK>
+		<PRACOWNICY>
+			<TEKST>Spis pracowników:</TEKST>
+			<PERSONEL stanowisko = "Księgowy" Id_P = "AA">
+				<IMIE_I_NAZWISKO>Stefan Bambaryla</IMIE_I_NAZWISKO>
+				<ROK_URODZENIA>1987</ROK_URODZENIA>
+				<EMAIL typ ="prywatny">bambastefan@gmail.com</EMAIL>
+				<ZMIANA typ = "dzienna nocna" czas = "8" />
+			</PERSONEL>
+			<PERSONEL stanowisko = "Księgowy" Id_P = "BB">
+				<IMIE_I_NAZWISKO>Wladyslaw Krzak</IMIE_I_NAZWISKO>
+				<ROK_URODZENIA>1980</ROK_URODZENIA>
+				<EMAIL typ ="służbowy">krzaku.władysław@gmail.com</EMAIL>
+				<ZMIANA typ = "dzienna" czas = "8" />
+			</PERSONEL>
+			<PERSONEL stanowisko = "Kasjer" Id_P = "CC">
+				<IMIE_I_NAZWISKO>Jacek Wróbel</IMIE_I_NAZWISKO>
+				<ROK_URODZENIA>1990</ROK_URODZENIA>
+				<EMAIL typ ="służbowy">wróbeljacek@gmail.com</EMAIL>
+				<ZMIANA typ = "nocna" czas = "6" />
+			</PERSONEL>
+		</PRACOWNICY>
+		<KLIENCI>
+			<TEKST>Spis klientów:</TEKST>
+			<KLIENT Ulubiony_gatunek = "rock" Id_K = "DD">
+				<IMIE>Jan</IMIE>
+				<NAZWISKO>Kowalski</NAZWISKO>
+				<ROK_URODZENIA>1990</ROK_URODZENIA>
+				<WYPOZYCZENIE Id_W = "QWERTY" CD ="ABA">
+					<DATA_ROZPOCZECIA>2021-03-21</DATA_ROZPOCZECIA>
+					<OSTATECZNY_TERMIN_ZWROTU>2021-03-30</OSTATECZNY_TERMIN_ZWROTU>
+				</WYPOZYCZENIE>
+				<WYPOZYCZENIE Id_W = "FDSACV" CD ="QQQ">
+					<DATA_ROZPOCZECIA>2021-02-12</DATA_ROZPOCZECIA>
+					<OSTATECZNY_TERMIN_ZWROTU>2021-03-12</OSTATECZNY_TERMIN_ZWROTU>
+				</WYPOZYCZENIE>
+			</KLIENT>
+			<KLIENT Ulubiony_gatunek = "jazz" Id_K = "EE">
+				<IMIE>Jan</IMIE>
+				<NAZWISKO>Szampan</NAZWISKO>
+				<ROK_URODZENIA>1979</ROK_URODZENIA>
+				<WYPOZYCZENIE Id_W = "YTREWQ" CD =" WWF">
+					<DATA_ROZPOCZECIA>2021-03-25</DATA_ROZPOCZECIA>
+					<OSTATECZNY_TERMIN_ZWROTU>2021-04-01</OSTATECZNY_TERMIN_ZWROTU>
+				</WYPOZYCZENIE>
+			</KLIENT>
+		</KLIENCI>
+		<SPRZET>
+			<TEKST>Spis sprzętu:</TEKST>
+			<URZADZENIE typ = "Gramofon" Id_urzadzenia = "CW">
+				<ROK_PRODUKCJI>1993</ROK_PRODUKCJI>
+				<DATA_ZAKUPU>2017-09-13</DATA_ZAKUPU>
+			</URZADZENIE>
+			<URZADZENIE typ = "Głośnik" Id_urzadzenia = "CS">
+				<ROK_PRODUKCJI>2021</ROK_PRODUKCJI>
+				<DATA_ZAKUPU>2021-09-13</DATA_ZAKUPU>
+			</URZADZENIE>
+			<URZADZENIE typ = "Głośnik" Id_urzadzenia = "CK">
+				<ROK_PRODUKCJI>2018</ROK_PRODUKCJI>
+				<DATA_ZAKUPU>2019-01-13</DATA_ZAKUPU>
+			</URZADZENIE>
+		</SPRZET>
+	</PRZYBORNIK>
+	<SALE>
+	<SALA numer = "A">
+		<DZIAL nazwa_gatunku = "Rock">
+			<PLYTA Id_plyty = "QQQ">
+				<WYKONAWCA>Pink Floyd</WYKONAWCA>
+				<TYTUL>Dark Side Of The Moon</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1973</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "QQW">
+				<WYKONAWCA>Guns N' Roses</WYKONAWCA>
+				<TYTUL>Appetite For Destruction</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1987</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "QQE">
+				<WYKONAWCA>AC/DC</WYKONAWCA>
+				<TYTUL>Back In Black</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1980</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "QWQ">
+				<WYKONAWCA>Metalica</WYKONAWCA>
+				<TYTUL>Master Of Puppets</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1986</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "ABA">
+				<WYKONAWCA>Led Zeppelin</WYKONAWCA>
+				<TYTUL>IV</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1971</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "ABK">
+				<WYKONAWCA>Queen</WYKONAWCA>
+				<TYTUL>A Night At The Opera </TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1975</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "ABW">
+				<WYKONAWCA>The Beatles</WYKONAWCA>
+				<TYTUL>Sgt. Pepper's Lonely Hearts Club Band</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1967</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "DTS">
+				<WYKONAWCA>AC/DC</WYKONAWCA>
+				<TYTUL>Powerage</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1978</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "DTK">
+				<WYKONAWCA>Iron Maiden</WYKONAWCA>
+				<TYTUL>The Number Of The Beast</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1982</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "DTN">
+				<WYKONAWCA>The Beatles</WYKONAWCA>
+				<TYTUL>Abbey Road</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1969</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+		</DZIAL>
+		<DZIAL nazwa_gatunku = "Jazz">
+			<PLYTA Id_plyty = "QWR">
+				<WYKONAWCA>Miles Davis</WYKONAWCA>
+				<TYTUL>Kind Of Blue</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1959</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "WWW">
+				<WYKONAWCA>John Coltrane</WYKONAWCA>
+				<TYTUL>A Love Supreme</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1964</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "WWF">
+				<WYKONAWCA>Dave Brubeck Quartet</WYKONAWCA>
+				<TYTUL>Time Out </TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1959</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "WWN">
+				<WYKONAWCA>Charles Mingus</WYKONAWCA>
+				<TYTUL>Mingus Ah Um </TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1959</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+		</DZIAL>
+	</SALA>
+	<SALA numer = "B">
+		<DZIAL nazwa_gatunku = "Pop">
+			<PLYTA Id_plyty = "TWE">
+				<WYKONAWCA>Stevie Wonder</WYKONAWCA>
+				<TYTUL>Songs In The Key Of Life</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1976</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "FSD">
+				<WYKONAWCA>Michael Jackson</WYKONAWCA>
+				<TYTUL>Off The Wall</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1979</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "FSZ">
+				<WYKONAWCA>Madonna</WYKONAWCA>
+				<TYTUL>Like A Virgin</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1984</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "FSK">
+				<WYKONAWCA>Tony Bennett</WYKONAWCA>
+				<TYTUL>The Beat Of My Heart</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1957</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "FSN">
+				<WYKONAWCA>Frank Sinatra</WYKONAWCA>
+				<TYTUL>Come Fly With Me</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1958</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "FSW">
+				<WYKONAWCA>Lady Gaga</WYKONAWCA>
+				<TYTUL>Born This Way</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>2011</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+		</DZIAL>
+		<DZIAL nazwa_gatunku = "Metal">
+			<PLYTA Id_plyty = "UWR">
+				<WYKONAWCA>Evanescence</WYKONAWCA>
+				<TYTUL>Fallen</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>2003</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "UWS">
+				<WYKONAWCA>Motörhead</WYKONAWCA>
+				<TYTUL>No Remorse</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1984</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "UWZ">
+				<WYKONAWCA>Black Sabbath</WYKONAWCA>
+				<TYTUL>Paranoid</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1970</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+			<PLYTA Id_plyty = "UWY">
+				<WYKONAWCA>Faith No More</WYKONAWCA>
+				<TYTUL>Angel Dust</TYTUL>
+				<DLUGOSC Dlugosc = "2H"></DLUGOSC>
+				<ROK_WYDANIA>1992</ROK_WYDANIA>
+				<OPIS> Blah blah blah blah bluh bluh blah blah blah.</OPIS>
+			</PLYTA>
+		</DZIAL>
+	</SALA>
+	</SALE>
+	<STOPKA>2021</STOPKA>
+
+</PLYTOTEKA_CD>

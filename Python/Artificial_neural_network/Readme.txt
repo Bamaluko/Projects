@@ -1,0 +1,1 @@
+Before each run it is necesseary to clear the directory with all the charts and gif animations
